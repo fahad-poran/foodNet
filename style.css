@@ -1,20 +1,53 @@
+ 
+ #navbar ul { 
+	margin: 0%; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-image: linear-gradient(to right,skyblue,cyan);
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: rgb(20, 220, 170);
+	
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+
+    
+
 body{
     
     font-family: 'Josefin Sans', sans-serif;
     margin: 0%;
+    
 }
 section{
-    height: 400px;
-    padding-bottom: 90px;
+    /* height: 400px; */
+    /* padding-bottom: 90px; */
+    display: flex;
+    padding: 5%;
 }
 .sec2{
     background-image: url('food-network/images/shapes/Frame58.jpg');
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;*/
 }
 
 .top-banner{
     background-image: url('food-network/images/shapes/Frame 56.jpg');
     background-repeat: no-repeat;
+    background-size:cover;
     background-position: left;
 }
 .name-highlight{
@@ -23,9 +56,10 @@ section{
 .half-width img{
     width: 100%;
 }
+
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    background-image: linear-gradient(to right,lightSalmon,tomato);
     padding: 10px 20px;
     border-radius: 8px;
     color: wheat;
@@ -36,4 +70,51 @@ section{
     float:left;
     margin-left: 5%;
     padding-left: 5%;
+}
+.cards{
+    display: flex;
+   
+}
+.card{
+    width: 480px;
+    padding: 15px 15px 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(85, 79, 79, 0.774);
+    margin-right: 9%;
+      }
+
+.item{
+    height: 300px;
+    width: 350px;
+    
+}
+
+
+/* social section
+} */
+.sec4{
+   /* padding-left: 15%; */
+  
+   
+}
+.largeCard{
+    display: flex;
+    border-radius: 25px;
+   box-shadow: 0 0 20px rgba(85, 79, 79, 0.774);
+   justify-content: space-evenly;
+   width: 80%;
+margin-left: 9%;
+ padding: 3% 3%;
+}
+
+.social{
+    margin-right: 5%;
+    width: 30%;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+.fot-txt{
+    color: darkgray;
 }
