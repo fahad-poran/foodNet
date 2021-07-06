@@ -41,14 +41,14 @@ section{
     padding: 5%;
 }
 .sec2{
-    background-image: url('food-network/images/shapes/Frame58.jpg');
+    background-image: url('images/Frame58.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed;*/
 }
 
 .top-banner{
-    background-image: url('food-network/images/shapes/Frame 57.jpg');
+    background-image: url('images/Frame 57.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: left;
